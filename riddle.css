@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Odibee Sans', cursive;
+    background-color: rgb(30, 19, 56);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.box {
+    background-color: white;
+    width: auto;
+    margin: 25px auto 40px auto; /* cima direita, embaixo esquerda */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px black solid;
+    border-radius: 20px;
+    box-shadow: 15px 15px 0 0 black;
+    padding: 25px 150px;
+}
+
+.hint {
+    font-size: 20px;
+}
+
+.hint1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hint2 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic {
+    width: 408px;
+    height: 285px;
+}
+
+#button {
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 0 black;
+    padding: 3px 10px;
+    transition: 0.35s;
+
+}
+
+#button:hover {
+    transform: scale(1.12);
+}
+
+#result {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 35px;
+}
+
+.foot {
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font: italic;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
